@@ -1,0 +1,54 @@
+.navbar {
+  border-bottom: 2px grey solid;
+  padding: 0 60px;
+  margin: 0;
+}
+
+.navbar h1 {
+  color: white;
+  background: #4aaaa5;
+  margin: 0;
+}
+
+.navbar a {
+  color: #9fadc1;
+  font-size: 20px;
+  padding: 0 15px;
+}
+
+/* select all links in navbar except last link */
+.navbar a:not(:last-child) {
+  border-right: 1px #9fadc1 solid;
+}
+
+/* @media screen and (min-width: 980px) {
+  .navbar {
+    padding: 2px 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 2px 40px;
+  }
+}
+*/
+/* @media screen and (max-width: 640px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar h1 {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .navbar div {
+    padding: 20px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: ) */
