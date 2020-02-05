@@ -39,7 +39,7 @@ body {
 
 .card {
   width: 70%;
-  padding: 30px;
+  padding: 0 30px;
   line-height: 3em;
 }
 
@@ -47,9 +47,8 @@ body {
   color: #4aaaa5;
   border-bottom: 2px #e8e8e8 solid;
   margin-bottom: 30px;
-  padding-bottom: 30px;
-  font-weight: bold;
-  height: 50px;
+  height: 80px;
+  line-height: 80px;
 }
 
 .fixed-bottom {
@@ -62,6 +61,7 @@ body {
 
 .top-buffer {
   margin-top: 16px;
+  padding-bottom: 30px;
 }
 
 /* @media screen and (min-width: 980px) {
