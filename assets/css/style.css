@@ -1,13 +1,19 @@
+body {
+  background-image: url("../images/grey-texture.jpg");
+}
 .navbar {
+  background-color: white;
   border-bottom: 2px grey solid;
   padding: 0 60px;
   margin: 0;
+  height: 80px;
 }
 
 .navbar h1 {
   color: white;
   background: #4aaaa5;
   margin: 0;
+  padding: 15px 15px;
 }
 
 .navbar a {
@@ -19,6 +25,37 @@
 /* select all links in navbar except last link */
 .navbar a:not(:last-child) {
   border-right: 1px #9fadc1 solid;
+}
+
+.container-fluid {
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+#mypic {
+  width: 200px;
+  height: 200px;
+}
+
+.card {
+  width: 70%;
+  padding: 30px;
+}
+
+.card h1 {
+  color: #4aaaa5;
+  border-bottom: 2px #e8e8e8 solid;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.fixed-bottom {
+  background: #666666;
+  border-top: 8px #4aaaa5 solid;
+  text-align: center;
+  height: 80px;
+  color: #979c9b;
 }
 
 /* @media screen and (min-width: 980px) {
