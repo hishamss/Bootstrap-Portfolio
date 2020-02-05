@@ -33,11 +33,6 @@ body {
   padding-left: 60px;
 }
 
-#mypic {
-  width: 90%;
-  height: auto;
-}
-
 .card {
   width: 70%;
   padding: 0 30px 30px 30px;
@@ -64,11 +59,14 @@ body {
   margin-top: 16px;
 }
 
-/* .port-images img {
-  width: 200px;
-  height: 200px;
+/* .right-buffer {
+  padding-right: 16px;
 } */
 
 .bottom-buffer {
   margin-bottom: 10px;
+}
+
+#image-text {
+  padding-left: 16px;
 }
