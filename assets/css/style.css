@@ -1,4 +1,8 @@
 body {
+  overflow: scroll;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
   background-image: url("../images/grey-texture.jpg");
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -28,14 +32,16 @@ body {
   border-right: 1px #9fadc1 solid;
 }
 
-.container-fluid {
+.cont {
   padding-top: 30px;
   padding-left: 60px;
+  padding-bottom: 110px;
 }
 
 .card {
   width: 70%;
   padding: 0 30px 30px 30px;
+  /* margin-bottom: 30px; */
   line-height: 3em;
 }
 
@@ -47,12 +53,19 @@ body {
   line-height: 80px;
 }
 
-.fixed-bottom {
+.fixedbottom {
+  position: absolute;
+  bottom: 0;
   background: #666666;
   border-top: 8px #4aaaa5 solid;
   text-align: center;
   height: 80px;
   color: #979c9b;
+  line-height: 80px;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .top-buffer {
@@ -69,4 +82,26 @@ body {
 
 #image-text {
   padding-left: 16px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10%;
+  right: 15px;
+  left: 15px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1057px) and (max-width: 1456px) {
+  .overlay {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1057px) {
+  .overlay {
+    font-size: 4px;
+  }
 }
