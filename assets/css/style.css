@@ -1,5 +1,6 @@
 body {
   background-image: url("../images/grey-texture.jpg");
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .navbar {
   background-color: white;
