@@ -33,13 +33,14 @@ body {
 }
 
 #mypic {
-  width: 200px;
-  height: 200px;
+  width: 90%;
+  height: auto;
 }
 
 .card {
   width: 70%;
   padding: 30px;
+  line-height: 3em;
 }
 
 .card h1 {
@@ -48,6 +49,7 @@ body {
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-weight: bold;
+  height: 50px;
 }
 
 .fixed-bottom {
@@ -56,6 +58,10 @@ body {
   text-align: center;
   height: 80px;
   color: #979c9b;
+}
+
+.top-buffer {
+  margin-top: 16px;
 }
 
 /* @media screen and (min-width: 980px) {
