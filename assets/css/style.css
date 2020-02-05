@@ -40,7 +40,7 @@ body {
 
 .card {
   width: 70%;
-  padding: 0 30px;
+  padding: 0 30px 30px 30px;
   line-height: 3em;
 }
 
@@ -62,37 +62,13 @@ body {
 
 .top-buffer {
   margin-top: 16px;
-  padding-bottom: 30px;
 }
 
-/* @media screen and (min-width: 980px) {
-  .navbar {
-    padding: 2px 60px;
-  }
+.port-images img {
+  width: 200px;
+  height: 200px;
 }
 
-@media screen and (min-width: 768px) {
-  .navbar {
-    padding: 2px 40px;
-  }
+.bottom-buffer {
+  margin-bottom: 10px;
 }
-*/
-/* @media screen and (max-width: 640px) {
-  .navbar {
-    padding: 0;
-  }
-
-  .navbar h1 {
-    text-align: center;
-    width: 100%;
-    padding: 20px;
-    margin: 0;
-  }
-
-  .navbar div {
-    padding: 20px;
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: ) */
