@@ -1,5 +1,5 @@
 body {
-  overflow: scroll;
+  /* the following 3 codes to make body fill the screen */
   min-height: 100vh;
   position: relative;
   margin: 0;
@@ -11,7 +11,6 @@ body {
   border-bottom: 2px grey solid;
   padding: 0 60px;
   margin: 0;
-  /* height: 80px; */
 }
 
 .navbar h1 {
@@ -41,7 +40,6 @@ body {
 .card {
   width: 70%;
   padding: 0 30px 30px 30px;
-  /* margin-bottom: 30px; */
   line-height: 3em;
 }
 
@@ -54,6 +52,7 @@ body {
 }
 
 .fixedbottom {
+  /* the following 2 codes to make footer sticky at the bottom */
   position: absolute;
   bottom: 0;
   background: #666666;
@@ -72,10 +71,6 @@ body {
   margin-top: 16px;
 }
 
-/* .right-buffer {
-  padding-right: 16px;
-} */
-
 .bottom-buffer {
   margin-bottom: 10px;
 }
@@ -91,17 +86,17 @@ body {
   left: 15px;
   background-color: #4aaaa5;
   color: white;
-  text-align: center;
+  font-size: 1.5em;
 }
 
 @media only screen and (min-width: 1057px) and (max-width: 1456px) {
   .overlay {
-    font-size: 10px;
+    font-size: 1em;
   }
 }
 
 @media only screen and (max-width: 1057px) {
   .overlay {
-    font-size: 4px;
+    font-size: 0.8em;
   }
 }
