@@ -89,6 +89,15 @@ body {
   font-size: 1.5em;
 }
 
+form {
+  color: #a08f97;
+}
+
+.btn-primary {
+  background-color: #4aaaa5;
+  border: 1px solid white;
+}
+
 @media only screen and (min-width: 1057px) and (max-width: 1456px) {
   .overlay {
     font-size: 1em;
