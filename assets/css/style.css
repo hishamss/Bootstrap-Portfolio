@@ -7,17 +7,19 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .navbar {
-  background-color: white;
-  border-bottom: 2px grey solid;
-  padding: 0 60px;
-  margin: 0;
+  background-color: white !important;
+  border-bottom: 2px grey solid !important;
+  padding: 0 60px !important;
+  margin: 0 !important;
 }
 
-.navbar h1 {
-  color: white;
-  background: #4aaaa5;
-  margin: 0;
-  padding: 15px 15px;
+.navbar-brand {
+  color: white !important;
+  background: #4aaaa5 !important;
+  margin: 0 !important;
+  padding: 15px 15px !important;
+  font-size: 2.5rem !important;
+  line-height: 1.2 !important;
 }
 
 .navbar a {
@@ -26,10 +28,10 @@ body {
   padding: 0 15px;
 }
 
-/* select all links in navbar except last link */
-.navbar a:not(:last-child) {
-  border-right: 1px #9fadc1 solid;
-}
+/* select all links in navbar except last link
+.navbar-nav li:not(:last-of-type) a {
+  border-right: 1px #9fadc1 solid !important;
+} */
 
 .cont {
   padding-top: 30px;
